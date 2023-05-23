@@ -45,16 +45,14 @@ public class User {
 	@JoinColumn(name="idrole", referencedColumnName="id")
 	private Role role;
 	
-	}
+	
 	public Role getRole() {
 		return role;
 	}
 	public void setRole(Role role) {
 		this.role = role;
 	}
-	public void setIdrole(int idrole) {
-		this.setIdrole(idrole); = idrole;
-	}
+	
 	public int getId() {
 		return id;
 	}
