@@ -18,7 +18,7 @@ public class FieldService {
 	//getting all books record by using the method findaAll() of CrudRepository  
 
 	//getting all books record by using the method findaAll() of CrudRepository  
-	public List<Field> getAllCategories()   
+	public List<Field> getAllFields()   
 	{  
 		List<Field> fields = new ArrayList<Field>();  
 		fR.findAll().forEach(c -> fields.add(c));  
